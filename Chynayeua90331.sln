@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chynayeua90331.Tests", "Chy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chynayeua90331.Blazor", "Chynayeu90331.Blazor\Chynayeua90331.Blazor.csproj", "{D4EAAF09-CB13-4C43-8647-906ADD0CA82D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chynayeua90331.Exam", "Chynayeua90331.Exam\Chynayeua90331.Exam.csproj", "{C50EED46-F93E-4331-B195-E0E22E2F7798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chynayeua90331.Exam.DAL", "Chynayeua90331.Exam.DAL\Chynayeua90331.Exam.DAL.csproj", "{0C2BFE5D-ACD9-4C35-8A89-B86FF6554ADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D4EAAF09-CB13-4C43-8647-906ADD0CA82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4EAAF09-CB13-4C43-8647-906ADD0CA82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4EAAF09-CB13-4C43-8647-906ADD0CA82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50EED46-F93E-4331-B195-E0E22E2F7798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50EED46-F93E-4331-B195-E0E22E2F7798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50EED46-F93E-4331-B195-E0E22E2F7798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50EED46-F93E-4331-B195-E0E22E2F7798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2BFE5D-ACD9-4C35-8A89-B86FF6554ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2BFE5D-ACD9-4C35-8A89-B86FF6554ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2BFE5D-ACD9-4C35-8A89-B86FF6554ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2BFE5D-ACD9-4C35-8A89-B86FF6554ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

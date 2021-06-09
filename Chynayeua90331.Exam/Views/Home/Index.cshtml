@@ -1,0 +1,54 @@
+﻿@model Card
+
+@{
+    ViewData["Title"] = "Экзаменационное задание";
+    var cards = ViewData["Cards"] as IEnumerable<Card>;
+}
+
+<div class="text-center">
+    <h2>Вариант 9</h2>
+    <h3>
+        Представление должно выводить названия объектов базы данных в виде выпадающего
+        списка (тэг select) и кнопку «Отправить».<br /> При выборе объекта в списке и нажатии кнопки
+        отправить возвращается представление, которое выведет Id выбранного объекта
+    </h3>
+</div>
+
+  <br />
+    <form>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <select name="id" class="form-select" aria-label="Default select example">
+                    <option selected>Выберете карточку</option>
+                    @foreach (var item in cards)
+                    {
+                        <option value="@item.CardId">@item.Eng</option>
+                    }
+                </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                 <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                 </div>
+            </div>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id выбраного элемента
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+            <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.CardId)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
