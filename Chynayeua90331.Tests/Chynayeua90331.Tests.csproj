@@ -25,6 +25,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Chynayeu90331.DAL\Chynayeua90331.DAL.csproj" />
     <ProjectReference Include="..\Chynayeu90331\Chynayeua90331.csproj" />
+    <ProjectReference Include="..\Chynayeua90331.DAL\Chynayeua90331.DAL.csproj" />
+    <ProjectReference Include="..\Chynayeua90331\Chynayeua90331.csproj" />
   </ItemGroup>
 
 </Project>
